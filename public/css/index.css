@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(20, 20, 20);
+  display: flex;
+  height: 100vh;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  margin-bottom: 4em;
+}
+
+h2 {
+  color: white;
+  font-family: poppins;
+  display: flex;
+  justify-content: center;
+}
+
+.loginBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1.2em;
+  border: none;
+  border-radius: 1em;
+  background-color: rgb(3, 121, 3);
+  color: white;
+  font-size: 1.15rem;
+  padding: 0.5em 0.75em;
+}
+
+form {
+  width: 25em;
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+form label {
+  font-family: poppins;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+form .artistId {
+  margin-bottom: 0.5em;
+  font-size: 1.1rem;
+  border-radius: 2em;
+  border: none;
+  padding: 0.8em 1em;
+  background-color: rgb(46, 46, 46);
+  caret-color: white;
+  color: white;
+}
+form .artistId:hover {
+  border: 1px white solid;
+}
+form ::-moz-placeholder {
+  color: rgb(114, 113, 113);
+  opacity: 1;
+}
+form ::placeholder {
+  color: rgb(114, 113, 113);
+  opacity: 1;
+}
+form .submitBtn {
+  width: 5em;
+  font-size: 1.1rem;
+  margin: auto;
+  padding: 0.6em 0.8em;
+  border-radius: 2em;
+  border: none;
+  background-color: rgb(5, 194, 5);
+  color: white;
+}/*# sourceMappingURL=index.css.map */

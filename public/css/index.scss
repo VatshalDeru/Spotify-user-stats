@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    height: 100vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    // border: 1px red solid;
+    margin-bottom: 4em;
+}
+
+
+h2{ 
+    color: white;
+    font-family: poppins;
+    display: flex;
+    justify-content: center;
+}
+
+.loginBtn{
+    position: absolute;
+    // display: none;
+    // top: -10em;
+    top: 0;
+    right: 0;
+    margin: 1.2em;
+    border: none;
+    border-radius: 1em;
+    background-color: rgb(3, 121, 3);
+    color: white;
+    font-size: 1.15rem;
+    padding: 0.5em 0.75em;
+}
+
+//form section
+form{
+
+
+
+    // border: 1px red solid;
+    width: 25em;
+    padding: 0.5em;
+    // height: 10em;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    label{
+        font-family: poppins;
+        color: white;
+        display: flex;
+        // flex-direction: column !important;
+        justify-content: center;
+    }
+
+    .artistId{
+        // margin-top: 1em;
+        margin-bottom: 0.5em;
+        font-size: 1.1rem;
+        border-radius: 2em;
+        border: none;
+        padding: 0.8em 1em;
+        background-color: rgb(46, 46, 46);
+        caret-color: white;
+        color: white;
+        &:hover{
+            border: 1px white solid;
+        }
+    }
+    ::placeholder{
+        color: rgb(114, 113, 113);
+        opacity: 1;
+    }
+
+    .submitBtn{
+        width: 5em;
+        // display: flex;
+        font-size: 1.1rem;
+        margin: auto;
+        padding: 0.6em 0.8em;
+        border-radius: 2em;
+        border:none;
+        background-color: rgb(5, 194, 5);
+        color: white;
+    }
+
+}
